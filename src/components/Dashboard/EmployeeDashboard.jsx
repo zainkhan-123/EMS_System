@@ -1,9 +1,10 @@
 
 
 import React from 'react'
-import Header from '../other/header'
+
 import Tasklist from '../other/Tasklist'
 import Tasklists from '../Tasks/Tasklists'
+import Header from '../other/header';
 
 function EmployeeDashboard(props) {
 
@@ -14,6 +15,7 @@ function EmployeeDashboard(props) {
    <Header changeUser={props.changeUser} data={props.data}/>
    <Tasklist  data={props.data}/>
    <Tasklists  data={props.data}/>
+
    </div>
   )
 }

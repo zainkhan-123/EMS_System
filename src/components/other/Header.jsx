@@ -1,8 +1,7 @@
 
 
 import React, { useContext, useState } from 'react'
-import { Authcontext } from '../../context/Authprovider'
-import { data } from 'autoprefixer'
+
 
 const Header = (props) => {
   // console.log(data);
