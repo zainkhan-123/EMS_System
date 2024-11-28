@@ -4,7 +4,7 @@ import React from 'react'
 
 import Tasklist from '../other/Tasklist'
 import Tasklists from '../Tasks/Tasklists'
-import Header from '../other/header';
+import Header from '../other/Header';
 
 function EmployeeDashboard(props) {
 
